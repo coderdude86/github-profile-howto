@@ -19,6 +19,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
  - after you enter in that command it's going to ask for some information.
     - Where to place the files. *Hit* **`ENTER`** *here*
-    - a passphrase This is a extra layer of security, you can press **`ENTER`** here if you do not want one.
+    - a passphrase 
+      - This is a extra layer of security, you can press **`ENTER`** here if you do not want one.
     - you will enter in your passhrase a second time, if you hit enter before just hit enter agian.
 ### Step 2
