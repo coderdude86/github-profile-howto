@@ -16,7 +16,7 @@
 ### Step 1
  - You will type in the following command, you will need to change the email address to your email address used with GitHub.
 ```
-$ ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
 
