@@ -9,7 +9,7 @@
     - *Windows* - [GitBash](https://git-scm.com/download/win) should be installed.
     - *Ubuntu / Linux* - any terminal emulator you have installed.
 ---
-## Step 1
+## :one:
  - You will type in the following command, you will need to change the email address to your email address used with GitHub.
 ```
 ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -20,5 +20,4 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
       - This is a extra layer of security, you can press **`ENTER`** here if you do not want one.
     - you will enter in your passhrase a second time, if you hit enter before just hit enter agian.
 ---
-
-### Step 2
+## :two:
