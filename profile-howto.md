@@ -5,17 +5,22 @@
 
  1. In the upper-right corner of any page, use the + drop-down menu, and select New repository.
 
-![Create a New Repo](./images/new_repo.png)
+  - ![Create a New Repo](./images/new_repo.png)
 
 2. Under "Repository name" type a repository name that matches your GitHub username. For example, if your username is "coderdude86", the repository name must be "coderdude86". (A box will pop up saying you found a secret!).
-![Create a New Repo](./images/create_new.png)
-
+  - ![Create a New Repo](./images/create_new.png)
 3. Optionally, you can add a description of your repository. For example, "My personal repository."
+  - ![Create a New Repo](./images/repo_description.png.jpg)
 4. Make the repository public.
+  - ![Create a New Repo](./images/public_repo.png.jpg)
 5. Initialize the repository with a README.
+  - ![Create a New Repo](./images/initialize_with_README.png.jpg)
 6. Click the Create Repository button.
+  - ![Create a New Repo](./images/create_repo_button.png.jpg)
 7. On the right side of the page, above the right sidebar, click Edit README.
+![Create a New Repo](./images/edit_readme_button.png)
 8. Create markdown/HTML to be displayed on your profile page! It is pre-populated with some ideas on what to add inside a `comment`.
+![Create a New Repo](./images/edit_readme.png)
 ---
 
 ### Tips for your GitHub Profile README:
