@@ -12,7 +12,7 @@
 ---
 > ### :point_right: ***Please note:*** any time I reference `terminal` for Windows that will be GitBash. 
 ---
-## :one: Creating the key
+## :one: Create the key
  - You will type in the following command, you will need to change the email address to your email address used with GitHub.
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
@@ -23,7 +23,7 @@ ssh-keygen -t ed25519 -C "your_email@example.com"
       - This is a extra layer of security, you can press **`ENTER`** here if you do not want one.
     - you will enter in your passhrase a second time, if you hit enter before just hit enter agian.
 ---
-## :two: copying the key
+## :two: Copy the key
 Depending on which OS you have, copy the key to your clipboard with the respective commands. 
 > No news is good news. 
 - **Windows**
@@ -35,16 +35,24 @@ clip < ~/.ssh/id_ed25519.pub
 pbcopy < ~/.ssh/id_ed25519.pub
 ```
 ---
-## :three: putting the key into GitHub
+## :three: :floppy_disk: Add the key into GitHub
 - Login to [GitHub](https://github.com). and go to the upper right corner and click on your picture, and almost at the bottom of that menu will be an option that says Settings.
    - ![GitHub Settings](./images/gh_settings.png)
 - On the Left side, look for the option that says `SSH and GPG Keys` or you can click the following link
   - [GitHub SSH Key Settings](https://github.com/settings/keys)
     - ![SSH and GPG Keys](./images/ssh_settings.png)
--
+- click on the button that says `New SSH Key`
+  - ![Add new SSH Key](./images/new_ssh_key.png)
+- Here you have 2 fields
+   - *Title*
+     - This is where you'd name your key. Most people will reference which computer/laptop they are on.
+   - *Key* 
+      - This is where you will paste the :key: key that you copied in step :two:
+      - ![SSH Key form](./images/ssh_key_form.png)
+
 
 ---
-## :four: Testing out the key
+## :four: Test the key
 - Now we will try and make a connection to github with the SSH protocol. 
 - switch back to your terminal and type in the following command. 
 ```bash
